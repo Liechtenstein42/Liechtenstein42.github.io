@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:ital,wght@0,400;0,700;1,400&display=swap");
+
+:root {
+    --primary-color: #131e75;
+    --secondary-color: #b9d9eb;
+}
+
 h1 {
-    color:#131e75
+    color: var(--primary-color);
+    font-family: "Ubuntu";
+}
+
+p {
+    font-family: "Ubuntu";
 }

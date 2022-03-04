@@ -13,7 +13,7 @@ h1 {
     color: var(--primary-color);
 }
 
-iframe.map{
+iframe{
     border-width: 5px;
     border-style: solid;
     border-color: var(--primary-color);

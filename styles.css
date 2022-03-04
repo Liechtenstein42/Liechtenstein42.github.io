@@ -5,11 +5,10 @@
     --secondary-color: #b9d9eb;
 }
 
-h1 {
-    color: var(--primary-color);
+body{
     font-family: "Ubuntu";
 }
 
-p {
-    font-family: "Ubuntu";
+h1 {
+    color: var(--primary-color);
 }

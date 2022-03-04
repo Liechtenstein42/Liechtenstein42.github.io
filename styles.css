@@ -13,3 +13,7 @@ h1 {
     color: var(--primary-color);
 }
 
+iframe.map{
+    border-style: solid;
+    border-color: var(--primary-color);
+}

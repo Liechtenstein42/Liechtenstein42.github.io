@@ -10,6 +10,10 @@ body{
     background: var(--secondary-color);
 }
 
+.navbar{
+    background: white;
+}
+
 a{
     text-decoration: none;
 }

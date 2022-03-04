@@ -14,7 +14,7 @@ h1 {
 }
 
 iframe{
-    border-width: 5px;
+    border-width: thick;
     border-style: solid;
     border-color: var(--primary-color);
 }

@@ -5,19 +5,23 @@
     --secondary-color: #567a9d;
 }
 
+h1{
+    color: var(--primary-color);
+}
+
 body{
     font-family: "Ubuntu";
     background: white;
     margin: 0;
 }
 
+.navbar{
+    background: var(--primary-color);
+}
+
 .container {
     display: flex;
     align-items: center;
-  }
-
-.navbar{
-    background: var(--primary-color);
 }
 
 .navbar .logo img{
@@ -45,22 +49,21 @@ body{
     
 }
 
-.navbar .navigation  a{
+.navbar .navigation a{
   display: block;
   color: white;
   text-align: right;
-  padding: 0;
   text-decoration: none;
+  position: absolute;
+  padding: 0;
 }
 
 .navbar .navigation a:hover{
-    color: #111;
-}
-
-h1 {
-    color: var(--primary-color);
+    color: black;
 }
 
 .map{
-    border:3px solid var(--primary-color)
+    border:3px solid var(--primary-color);
+    width: 600px;
+    height: 450px;
 }

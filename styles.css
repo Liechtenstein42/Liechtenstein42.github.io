@@ -39,14 +39,12 @@ body{
     padding: 0 15px;
     overflow: hidden;
     align-self: right;
-
 }
 
 .navbar nav ul li{
     display: inline;
     float: right;
     padding: 10px 15px;
-    
 }
 
 .navbar .navigation a{

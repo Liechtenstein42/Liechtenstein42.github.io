@@ -50,15 +50,24 @@ body{
 }
 
 .navbar .navigation a{
-  display: block;
-  color: white;
-  text-align: right;
-  text-decoration: none;
-  position: absolute;
-  padding: 0;
+    display: block;
+    color: white;
+    text-align: right;
+    padding: 0;
+    text-decoration: none;
 }
 
 .navbar .navigation a:hover{
+    color: #111;
+}
+
+.navbutton{
+    text-decoration: none;
+    color: white;
+    position: absolute;
+}
+
+.navbutton:hover{
     color: black;
 }
 

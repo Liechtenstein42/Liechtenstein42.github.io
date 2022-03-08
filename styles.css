@@ -46,6 +46,4 @@ body{
     border:3px solid var(--primary-color);
     width: 600px;
     height: 450px;
-    position: absolute;
-    right: 10px;
 }

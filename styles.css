@@ -5,8 +5,11 @@
     --secondary-color: #567a9d;
 }
 
+/* Default Styles classes*/
+
 h1{
     color: var(--primary-color);
+    text-align: center;
 }
 
 body{
@@ -14,6 +17,8 @@ body{
     background: white;
     margin: 0;
 }
+
+/* Navagation Bar classes */
 
 .navbar{
     background: var(--primary-color);
@@ -40,10 +45,4 @@ body{
 
 .navbutton:hover{
     color: black;
-}
-
-.map{
-    border:3px solid var(--primary-color);
-    width: 600px;
-    height: 450px;
-}
+}  

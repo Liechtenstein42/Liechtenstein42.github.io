@@ -22,9 +22,6 @@ body{
 
 .navbar{
     background: var(--primary-color);
-}
-
-.container{
     display: flex;
     align-items: center;
 }

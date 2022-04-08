@@ -7,15 +7,20 @@
 
 /* Default Styles classes*/
 
+body{
+    font-family: "Ubuntu";
+    background: white;
+    margin: 0;
+}
+
 h1{
     color: var(--primary-color);
     text-align: center;
 }
 
-body{
-    font-family: "Ubuntu";
-    background: white;
-    margin: 0;
+h2{
+    color: var(--secondary-color);
+    text-align: center;
 }
 
 /* Navagation Bar classes */
@@ -27,17 +32,19 @@ body{
 }
 
 .logo{
-    width: 50px;
-    height: auto;
-    margin: 0;
-    padding: 0;
     align-self: left;
+    width: 50px;
+}
+
+.icon{
+    position: absolute;
+    width: 40px;
 }
 
 .navbutton{
+    position: absolute;
     text-decoration: none;
     color: white;
-    position: absolute;
 }
 
 .navbutton:hover{

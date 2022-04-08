@@ -39,6 +39,7 @@ h2{
 .icon{
     position: absolute;
     width: 40px;
+    top: 5px;
 }
 
 .navbutton{
